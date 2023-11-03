@@ -1,10 +1,7 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import threadapp from "@/public/threadapp.png";
+import Dailyjournal from "public/Daily-journal.png";
 
 export const links = [
   {
@@ -32,11 +29,11 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "DAILY JOURNAL WEB APP",
+    title: "Threads Web App",
     description:
-      "Developed and executed a cutting-edge daily journal web application utilizing the MERN stack.",
-    tags: ["Node.js", "Express.js", "MongoDB"],
-    imageUrl: corpcommentImg,
+      "A modern web app clone of Threads built with Next.js, TypeScript, MongoDB, and Tailwind CSS, allowing seamless creation and interaction with dynamic content and discussions.",
+    tags: ["Next.js", "Typescript", "MongoDB", "Tailwind CSS"],
+    imageUrl: threadapp,
   },
   {
     title: "To-Do-List",
@@ -46,11 +43,11 @@ export const projectsData = [
     imageUrl: rmtdevImg,
   },
   {
-    title: "Simon Memory Game",
+    title: "DAILY JOURNAL WEB APP",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["HTML","CSS", "Javascript"],
-    imageUrl: wordanalyticsImg,
+      "Developed and executed a cutting-edge daily journal web application utilizing the MERN stack.",
+    tags: ["Node.js", "Express.js", "MongoDB"],
+    imageUrl: Dailyjournal,
   },
 ] as const;
 
