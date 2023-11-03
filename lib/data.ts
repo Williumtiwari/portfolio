@@ -1,7 +1,6 @@
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import threadapp from "@/public/threadapp.png";
-import Dailyjournal from "public/Daily-journal.png";
+import ToDoListImg from "@/public/ToDoList.png";
+import ThreadAppImg from "@/public/ThreadApp.png";
+import DailyJournalImg from "public/Daily-journal.png";
 
 export const links = [
   {
@@ -33,21 +32,21 @@ export const projectsData = [
     description:
       "A modern web app clone of Threads built with Next.js, TypeScript, MongoDB, and Tailwind CSS, allowing seamless creation and interaction with dynamic content and discussions.",
     tags: ["Next.js", "Typescript", "MongoDB", "Tailwind CSS"],
-    imageUrl: threadapp,
+    imageUrl: ThreadAppImg,
   },
   {
     title: "To-Do-List",
     description:
       "Proficiently developed a robust and fully functional To-Do List Web-application utilizing Node.js, Express.js, and MongoDB.",
     tags: ["Node.js", "Express.js", "MongoDB"],
-    imageUrl: rmtdevImg,
+    imageUrl: ToDoListImg,
   },
   {
     title: "DAILY JOURNAL WEB APP",
     description:
       "Developed and executed a cutting-edge daily journal web application utilizing the MERN stack.",
     tags: ["Node.js", "Express.js", "MongoDB"],
-    imageUrl: Dailyjournal,
+    imageUrl: DailyJournalImg,
   },
 ] as const;
 
