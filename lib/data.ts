@@ -1,6 +1,6 @@
-import ToDoListImg from "@/public/ToDoList.png";
-import ThreadAppImg from "@/public/ThreadApp.png";
-import DailyJournalImg from "public/Daily-journal.png";
+import ToDoListImg from "@/public/todolist.png";
+import ThreadAppImg from "@/public/threadapp.png";
+import DailyJournalImg from "public/dailyjournal.png";
 
 export const links = [
   {
