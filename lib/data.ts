@@ -1,7 +1,7 @@
 import ToDoListImg from "@/public/todolist.png";
 import ThreadAppImg from "@/public/threadapp.png";
-import DailyJournalImg from "public/dailyjournal.png";
-
+import DailyJournalImg from "@/public/dailyjournal.png";
+import TaskNest from "@/public/tasknestapp.png";
 export const links = [
   {
     name: "Home",
@@ -28,25 +28,25 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Threads Web App",
+    title: "Task-Nest App (Notion-Clone)",
     description:
-      "A modern web app clone of Threads built with Next.js, TypeScript, MongoDB, and Tailwind CSS, allowing seamless creation and interaction with dynamic content and discussions.",
-    tags: ["Next.js", "Typescript", "MongoDB", "Tailwind CSS"],
-    imageUrl: ThreadAppImg,
-  },
-  {
-    title: "To-Do-List",
-    description:
-      "Proficiently developed a robust and fully functional To-Do List Web-application utilizing Node.js, Express.js, and MongoDB.",
-    tags: ["Node.js", "Express.js", "MongoDB"],
-    imageUrl: ToDoListImg,
+      "Inspired by Notion, it offers customizable workspaces and responsive design for seamless Notes organization.",
+    tags: ["Next.js", "Typescript", "Convex", "Client","Tailwind-CSS","Shadcn-ui", "Blocknote"],
+    imageUrl: TaskNest,
   },
   {
     title: "DAILY JOURNAL WEB APP",
     description:
-      "Developed and executed a cutting-edge daily journal web application utilizing the MERN stack.",
-    tags: ["Node.js", "Express.js", "MongoDB"],
+      "Capture daily moments: streamlined, reflective, private, accessible, user-friendly journaling web app.",
+    tags: ["Node.js", "Express.js", "MongoDB","EJS"],
     imageUrl: DailyJournalImg,
+  },
+  {
+    title: "Threads Web App",
+    description:
+      "Instagram's Threads Clone: Share text, join conversations, multimedia, interoperable, future-focused social app.",
+    tags: ["Next.js", "Typescript", "MongoDB", "Tailwind-CSS","Client"],
+    imageUrl: ThreadAppImg,
   },
 ] as const;
 
@@ -70,4 +70,6 @@ export const skillsData = [
   "DSA",
   "Operating Systems",
   "DBMS",
+  "Covex",
+  "Client",
 ] as const;
