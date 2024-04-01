@@ -25,27 +25,34 @@ export const links = [
   },
 ] as const;
 
-
 export const projectsData = [
   {
     title: "Task-Nest App (Notion-Clone)",
     description:
       "Inspired by Notion, it offers customizable workspaces and responsive design for seamless Notes organization.",
-    tags: ["Next.js", "Typescript", "Convex", "Client","Tailwind-CSS","Shadcn-ui", "Blocknote"],
+    tags: [
+      "Next.js",
+      "Typescript",
+      "Convex",
+      "Client",
+      "Tailwind-CSS",
+      "Shadcn-ui",
+      "Blocknote",
+    ],
     imageUrl: TaskNest,
   },
   {
     title: "DAILY JOURNAL WEB APP",
     description:
       "Capture daily moments: streamlined, reflective, private, accessible, user-friendly journaling web app.",
-    tags: ["Node.js", "Express.js", "MongoDB","EJS"],
+    tags: ["Node.js", "Express.js", "MongoDB", "EJS"],
     imageUrl: DailyJournalImg,
   },
   {
     title: "Threads Web App",
     description:
       "Instagram's Threads Clone: Share text, join conversations, multimedia, interoperable, future-focused social app.",
-    tags: ["Next.js", "Typescript", "MongoDB", "Tailwind-CSS","Client"],
+    tags: ["Next.js", "Typescript", "MongoDB", "Tailwind-CSS", "Client"],
     imageUrl: ThreadAppImg,
   },
 ] as const;
@@ -68,8 +75,6 @@ export const skillsData = [
   "APIs",
   "Framer Motion",
   "DSA",
-  "Operating Systems",
-  "DBMS",
-  "Covex",
+  "Convex",
   "Client",
 ] as const;
