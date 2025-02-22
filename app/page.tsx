@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useState, useEffect } from "react";
 
@@ -9,6 +9,7 @@ import Projects from "@/components/projects";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
 import Preloader from "@/app/animation/preloader";
+import Experience from "@/components/experience";
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -26,15 +27,14 @@ export default function Home() {
   return isLoading ? (
     <Preloader />
   ) : (
-      <main className="flex flex-col items-center px-4">
-        <Intro />
-        <SectionDivider />
-        <About />
-        <Projects />
-        <Skills />
-        <Contact />
-      </main>
-    );
-
-
+    <main className="flex flex-col items-center px-4">
+      <Intro />
+      <SectionDivider />
+      <About />
+      <Projects />
+      <Skills />
+      <Experience />
+      <Contact />
+    </main>
+  );
 }
