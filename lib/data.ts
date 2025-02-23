@@ -75,6 +75,7 @@ export const projectsData = [
       "Blocknote",
     ],
     imageUrl: TaskNest,
+    link: "https://task-nest-willium.vercel.app/",
   },
   {
     title: "DAILY JOURNAL WEB APP",
@@ -82,6 +83,7 @@ export const projectsData = [
       "Capture daily moments: streamlined, reflective, private, accessible, user-friendly journaling web app.",
     tags: ["Node.js", "Express.js", "MongoDB", "EJS"],
     imageUrl: DailyJournalImg,
+    link: "https://github.com/Williumtiwari/DailyReflect",
   },
   {
     title: "Threads Web App",
@@ -89,6 +91,7 @@ export const projectsData = [
       "Instagram's Threads Clone: Share text, join conversations, multimedia, interoperable, future-focused social app.",
     tags: ["Next.js", "Typescript", "MongoDB", "Tailwind-CSS", "Client"],
     imageUrl: ThreadAppImg,
+    link: "https://threads-clone-willium.vercel.app/",
   },
 ] as const;
 
